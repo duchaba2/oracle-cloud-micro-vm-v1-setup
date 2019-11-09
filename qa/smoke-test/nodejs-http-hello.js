@@ -1,7 +1,7 @@
-console.log("Nodejs is listen to http request on: http://localhost:80 \n");
+console.log("Nodejs is listen to http request on: http://localhost:80");
 console.log("Use curl as in : >>curl http://localhost:80");
 var http=require('http');
-var server=http.createServer((function(request,response);
+var server=http.createServer((function(request,response)
 {
         response.writeHead(200,
         {"Content-Type" : "text/plain"});
