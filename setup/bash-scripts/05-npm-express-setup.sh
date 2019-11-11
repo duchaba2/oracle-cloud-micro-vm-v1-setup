@@ -1,7 +1,10 @@
 #!/bin/bash
 #
 echo "-----------------------------------------------------------------"
-echo "Set up python environment: monty_py_env"
+echo "Install/Init npm-init,"
 echo "-----------------------------------------------------------------"
-sudo python3 -m venv monty_py_env
-source monty_py_env/bin/activate
+npm install -g nodemon
+npm install -g @babel/core @babel/node
+npm install -g dotenv
+npm install -g cors
+npm install -g express
