@@ -10,4 +10,5 @@ curl ifconfig.me
 echo " "
 echo "Substitude the above public IP to the localhost"
 echo "-----------------------------------------------------------------"
-sudo node nodejs-http-hello.js
+#sudo node nodejs-http-hello.js
+node nodejs-http-hello.js
